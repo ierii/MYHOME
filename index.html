@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
 	<title>青鲤锦时</title>
 	<link rel="stylesheet" href="style/index.css">
 </head>
@@ -10,14 +11,14 @@
 <body>
 	<nav id="main-nav" class="p1">
 		<ul>
-			<li>主页</li>
-			<li>技术堆栈</li>
-			<li>项目经历</li>
-			<li>联系我</li>
+			<li data-index="0">主页</li>
+			<li data-index="1">技术堆栈</li>
+			<li data-index="2">项目经历</li>
+			<li data-index="3">联系我</li>
 		</ul>
 	</nav>
 	<div id="main-wrapper">
-		<div class="pages nth1" data-index="0">
+		<div class="pages nth1">
 			<div class="content">
 				<div class="left">
 					<div class="img-wrapper">
@@ -42,14 +43,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="pages nth2" data-index="1">
-
+		<div class="pages nth2">
+			<h2>这里是第2页</h2>
 		</div>
-		<div class="pages nth3" data-index="2">
-
+		<div class="pages nth3">
+			<h2>这里是第3页</h2>
 		</div>
-		<div class="pages nth4" data-index="3">
-
+		<div class="pages nth4">
+			<h2>这里是第4页</h2>
 		</div>
 	</div>
 	<script src="script/jquery.min.js"></script>
