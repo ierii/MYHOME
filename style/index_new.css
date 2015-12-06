@@ -175,24 +175,42 @@ body {
   width: 100%;
   height: 100%;
 }
-.newpages .pic {
-  position: absolute;
-  width: 60%;
+.newpages .bwra {
+  width: 50%;
   height: 80%;
-  top: 10%;
-  left: 20%;
+  position: absolute;
+  left: 25%;
+  overflow: hidden;
+}
+.newpages .bwra .pic {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  left: -10%;
   background-color: #60deed;
 }
-.newpages .pic .pwra {
+.newpages .bwra .pic .pwra {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
 }
-.newpages .pic .pwra img {
+.newpages .bwra .pic .pwra img {
   display: block;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.newpages .bwra .pic .pwra:nth-child(1) img {
+  bottom: 4%;
+}
+.newpages .bwra .pic .pwra:nth-child(2) img {
+  bottom: 4%;
+}
+.newpages .bwra .pic .pwra:nth-child(3) img {
+  bottom: 2%;
+}
+.newpages .bwra .pic .pwra:nth-child(4) img {
+  bottom: 0%;
 }
