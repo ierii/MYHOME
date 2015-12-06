@@ -6,7 +6,6 @@ html {
 
 body {
 	width: 100%;
-	height: 100%;
 	background-color: #000;
 }
 
@@ -30,30 +29,60 @@ body {
 			height: 100%;
 			top: 0;
 			left: 0;
-			img{
+			img {
 				display: block;
 				position: absolute;
 			}
 		}
-		.pwra:nth-child(1){
-			img{
+		.pwra:nth-child(1) {
+			img {
 				width: 60%;
 			}
 		}
-		.pwra:nth-child(2){
-			img{
-
+		.pwra:nth-child(2) {
+			img {
 				width: 50%;
 				top: 20%;
 				left: 40%;
 			}
 		}
-		.pwra:nth-child(3){
-			img{
+		.pwra:nth-child(3) {
+			img {
 				width: 20%;
 				top: 35%;
 				left: 30%;
 			}
 		}
 	}
+}
+
+.newpages {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	.pic {
+		@bgcolor: #60DEED;
+		position: absolute;
+		width: 60%;
+		height: 80%;
+		top: 10%;
+		left: 20%;
+		background-color: @bgcolor;
+		.pwra {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			img {
+				display: block;
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+			}
+		}
+	}
+
+
 }
